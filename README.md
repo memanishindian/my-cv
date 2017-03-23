@@ -1,0 +1,122 @@
+# my-cv
+i have created Resume using html and css
+<!DOCTYPE html>
+<html>
+<head>
+          <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<title>My CV</title>
+	<style type="text/css">
+	      html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+          <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          #hed{background-color: #009486;
+          	   color: white;
+          	}
+          #ic{color: #009486;}
+
+	</style>
+</head>
+<body style="max-width: 1400px;background-color:#009486;height: 2000px" >
+<h1 style="margin-left: 45%"><u style="color: #f4c20d"><b style="color: #0057e7">R</b><b style="color: #db3236">E</b><b style="color:#f4c20d">S</b>
+<b style="color: #db3236">U</b><b style="color:#008744">M</b><b style="color: #0057e7">E</b></u></h1>
+
+<!--main container-->
+<div style="max-width:1300px;height:1900px; background-color:#FFFFFF;border-style: dotted;border-color: #f1f1f1;margin-left: 1cm;margin-right: 1cm">
+<!--lef div-->
+    <div style="margin: 4px;border-style: outset;height: inherit;float: left;width: 30%">
+          <figure style="height:300px;margin: auto;">
+      	  <img src="pic.jpg" alt="manish image" height="250px" width="370px">
+      	  <caption style="align-content: center;">Manish kumar</caption>
+          </figure>
+
+          <h4 style="color: #707070">Web Devloper</h4>
+          <i class="fa fa-home" id="ic" style="float: left;padding-left: 25px" ></i><h4 style="color: #707070;"><font style="padding-left=0.5cm;">Patna,Bihar</font></h4>
+          <i class="fa fa-envelope" aria-hidden="true" id="ic" style="float:left ;padding-left: 25px"></i><h4 style="color: #707070;">&nbsp;memanishindian@gmail.com</h4>
+           <i class="fa fa-phone" aria-hidden="true" id="ic" style="float: left;padding-left: 25px" ></i><h4 style="color: #707070;">&nbsp;7301340241</h4>
+
+          <i class="fa fa-cogs" aria-hidden="true" id="ic" style="float: left;" ></i><h3>&nbsp;&nbsp;&nbsp;Skills</h3>
+                <h4 style="color: #707070;margin-left: 25px">C/c++</h4>
+                <h4 style="color: #707070;margin-left: 25px">Java,python</h4>
+                <h4 style="color: #707070;margin-left: 25px">html,css,js</h4>
+
+           <i class="fa fa-globe" style="display: inline;font-size: 250%" id="ic" style="float: left;" ></i><h3 style="display: inline;margin-left=0.5cm;padding-left:0.5cm;padding-right=0.5cm;background-color: #009486;color: white;border-radius: 15px ">Language</h3>
+               <h4 style="color: #707070;margin-left:25px;margin-top: 10px">English</h4>
+               <h4 style="color: #707070;margin-left:25px;margin-top: 10px">Hindi</h4>
+               <h4 style="color: #707070;margin-left:25px;margin-top: 10px">Bhojpuri</h4>
+    </div>
+<!--end left div-->
+<!--right div-->
+    <div style="margin-right:4x;height: inherit;border-style: outset;float: right;width: 68%;margin: : 25px">
+    <br>
+    <br>
+         <font><b style="padding-top: 30px;padding-left: 30px">Objective</b>:- To work for an organization which provides me the opportunity to improve my skills and knowledge to growth along with the organization objective.</font>
+
+      	   <h2 style="color: white;background-color: #009486; padding-left: 10px">Education Qualification</h2>
+<!--table div--> <form>            
+           <table style="table-layout: fixed;float:right;">
+            
+      	   	<thead style="border-color: black;margin-left: auto;margin-right: auto;">
+      	   		<td style="border-style: solid;width: 130px">Class</td>
+      	   		<td style="border-style: solid;width: 130px">College/University</td>
+              <td style="border-style: solid;width: 130px">Board/University</td>
+      	   		<td style="border-style: solid;width: 130px">Obtained Marks</td>
+      	   		<td style="border-style: solid;width: 130px">Total Marks</td>
+      	   		<td style="border-style: solid;width: 130px">percentage %</td>
+      	   	</thead>
+      	   	<tr>
+                <td style="width: 130px;border-style:solid;">MCA/PG</td>
+                <td style="width: 130px;border-style: solid">Pondycherry University</td>
+                <td style="width: 130px;border-style: solid">Pondycherry University</td>
+                <td style="width: 130px;border-style: solid">8.1</td>
+                <td style="width: 130px;border-style: solid">10</td>
+                <td style="width: 130px;border-style: solid">8.1</td>
+            </tr>
+            <tr>
+                   <td style="width: 130px;border-style:solid;">BCA/UG</td>
+                   <td style="width: 130px;border-style:solid;">Zakir Hussain Institute</td>
+                   <td style="width: 130px;border-style:solid;">SMU</td>
+                   <td style="width: 130px;border-style: solid">4073</td>
+                   <td style="width: 130px;border-style: solid">6000</td>
+                   <td style="width: 130px;border-style: solid">67.8%</td>
+            </tr>
+            <tr>
+                 <td style="width: 130px;border-style:solid;">12th</td>
+                 <td style="width: 130px;border-style:solid;">M.V College,Buxar</td>
+                 <td style="width: 130px;border-style:solid;">BSEB</td>
+                 <td style="width: 130px;border-style: solid">308</td>
+                 <td style="width: 130px;border-style: solid">500</td>
+                 <td style="width: 130px;border-style: solid">61.6</td>
+            </tr>
+            <tr>
+                    <td style="width: 130px;border-style:solid;">10th</td>
+                    <td style="width: 130px;border-style:solid;">S.J.K High School</td>
+                    <td style="width: 130px;border-style: solid">BSEB</td>
+                    <td style="width: 130px;border-style: solid">331</td>
+                    <td style="width: 130px;border-style: solid">500</td>
+                    <td style="width: 130px;border-style: solid">66.2</td>
+             </tr>       
+      	   </table>
+             </form>
+             <h2> <br><br><br><br><br><br><br> <h2 style="background-color: #009486;color: white">&nbsp&nbspHobbies </h2>
+             <ul>
+                <li>Learn New Tech.</li>
+                <li>Play Cricket</li>
+             </ul>
+            <h2 style="background-color: #009486;color: white">&nbsp&nbsp video</h2>
+           <video src="chham.mp4" height="400px" width="600px" controls style="margin-left: 100px;border-width: 1px;border-style: groove;"></video>
+    </div>
+</div>
+<!--end main container-->
+<h1 color="white"></h1>
+<footer align="center">All right reserved with Manish<br>
+    contact on:
+    <a href="https://plus.google.com/112438264969538636046" style="margin-left: 3px">
+    <i class="fa fa-google-plus" aria-hidden="true" style="background-color: #DB3236;color: white;font-size: 130%"></i>
+    </a>
+    <a href="https://www.facebook.com/memanishindian">
+    <i class="fa fa-facebook" aria-hidden="true" style="background-color: blue;color: white;font-size: 130%"></i>
+    </a>
+</footer>
+</body>
+</html>
